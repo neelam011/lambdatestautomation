@@ -40,7 +40,7 @@ public class TestingLambda {
 		WebDriver driver=new RemoteWebDriver(url,browserOptions);
 		driver.get("https://en.wikipedia.org/wiki/Software_testing");
 		String s=driver.getTitle();
-		System.out.println(s);
+		System.out.println("Title of the page"+s);
 		driver.quit();
 		
 		
